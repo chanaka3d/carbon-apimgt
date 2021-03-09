@@ -122,7 +122,7 @@ const styles = (theme) => {
         },
         leftMenuVerticalLeft: {
             width: theme.custom.leftMenu.width,
-            [theme.breakpoints.down('md')]: {
+            [theme.breakpoints.down('sm')]: {
                 width: 50,
             },
             top: 0,
@@ -170,7 +170,7 @@ const styles = (theme) => {
             flexDirection: 'column',
             marginLeft: shiftToLeft,
             marginRight: shiftToRight,
-            [theme.breakpoints.down('md')]: {
+            [theme.breakpoints.down('sm')]: {
                 marginLeft: shiftToLeft !== 0 && 50,
                 marginRight: shiftToRight !== 0 && 50,
             },
